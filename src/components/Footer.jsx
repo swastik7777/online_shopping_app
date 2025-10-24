@@ -23,11 +23,11 @@ export function Footer() {
                         <div className="contact-info">
                             <div className="contact-item mb-2">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon me-2" />
-                                <span><strong>Address:</strong> Bihar, India</span>
+                                <span><strong>Address:</strong> Pune, India</span>
                             </div>
                             <div className="contact-item">
                                 <FontAwesomeIcon icon={faPhone} className="contact-icon me-2" />
-                                <span><strong>Helpline:</strong> +91 9999999999</span>
+                                <span><strong>Helpline:</strong> +91 7350747686</span>
                             </div>
                         </div>
                     </Col>
@@ -76,7 +76,7 @@ export function Footer() {
                             </h5>
                             <div className="social-links-horizontal">
                                 <a 
-                                    href="https://github.com/LondheShubham153" 
+                                    href="https://github.com/swastik7777" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -84,7 +84,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>
                                 <a 
-                                    href="https://linkedin.com/in/shubhamlondhe1996" 
+                                    href="https://www.linkedin.com/in/swastik-gomase-aa67771ab/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -115,7 +115,7 @@ export function Footer() {
                             rel="noopener noreferrer"
                             className="author-link"
                         >
-                            Md. Afzal Hassan Ehsani
+                            Swastik Gomase
                         </a>
                     </div>
                     <div>
@@ -123,7 +123,7 @@ export function Footer() {
                         All rights reserved.
                     </div>
                     <div className="mt-1">
-                    Driven for TrainWithShubham Community.
+                    Driven for Swastik Gomase Community.
                     </div>
                 </div>
             </Container>

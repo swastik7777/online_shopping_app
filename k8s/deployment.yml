@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: online-shop
-  namespace: online-shop-prod
+  namespace: online-shopping
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: online-shop
@@ -15,17 +15,11 @@ spec:
     spec:
       containers:
       - name: online-shop
-        image: online_shop:latest
-        imagePullPolicy: Never
+        image: swastik2929/online-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         envFrom:
         - configMapRef:
             name: online-shop-config
-        resources:
-          requests:
-            cpu: "100m"
-            memory: "128Mi"
-          limits:
-            cpu: "300m"
-            memory: "256Mi"
+        
